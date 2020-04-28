@@ -12,10 +12,7 @@ pipeline
 
             retry(5)
             {
-               script
-               {
-                  sh echo "retry"
-               }
+               sh "echo retry"
             }
 
          }
