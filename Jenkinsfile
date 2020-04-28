@@ -9,6 +9,15 @@ pipeline
          steps 
          {
             echo 'build stage'
+
+            retry(5)
+            {
+               script
+               {
+                  echo "retry"
+               }
+            }
+
          }
          post
          {
