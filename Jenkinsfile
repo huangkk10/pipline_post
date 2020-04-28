@@ -14,7 +14,7 @@ pipeline
             {
                script
                {
-                  echo "retry"
+                  sh echo "retry"
                }
             }
 
