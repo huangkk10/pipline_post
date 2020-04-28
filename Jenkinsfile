@@ -33,6 +33,7 @@ pipeline
       success
       {
          echo "pipeline post success"
+         mail to: 'huangkk10@gmail.com' subject: "The pipeline success."
       }
    }
 }
